@@ -81,16 +81,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="lead">Clique no botão <span class="font-italic">"Adicionar ao Meu Pedido"</span>...</p>
           <div id="cta">
 
-            <!-- CÓDIGO DA KIWIFY -->
-
-            <div style="text-align:center">
-          <button id="kiwify-upsell-trigger-8uT5joR" style="background-color:#27AF60;padding:12px 16px;cursor:pointer;color:#FFFFFF;font-weight:600;border-radius:4px;border:1px solid #27AF60;font-size:20px;">Sim, eu aceito essa oferta especial!</button>
-          <div id="kiwify-upsell-cancel-trigger" style="margin-top:1rem;cursor:pointer;font-size:16px;text-decoration:underline;font-family:sans-serif;">Não, eu gostaria de recusar essa oferta</div>
-        </div><script> 
-            let nextUpsellURL = "";
-            let nextDownsellURL = "";</script><script src="https://kiwify-snippets.netlify.app/upsell/upsell.min.js"></script>
-
-            <!-- CÓDIGO DA KIWIFY -->
+          <!-- HOTMART - Upsell Widget -->
+<div id="box_hotmart"></div>
+<script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js"></script>
+<script>
+opts = {
+key: 'USL-82241-232583-c5426ef8035b34c84c300382de67d932',
+width: '650' ,
+height: '420'
+};
+Upsell.Widget.show(opts);
+</script>
+<!-- HOTMART - Upsell Widget [end] -->
 
           </div>
           <p class="lead">E comece agora mesmo a acabar com a pele flácida e caída.</p>
